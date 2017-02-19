@@ -7,7 +7,7 @@ It executes till all open issues are fetched or the api limit exceeds.
 The live application is hosted on heroku. [here](https://mysterious-shelf-80881.herokuapp.com/)
 
 If given more time, we could
-  1. improve add better exception handling
+  1. add better exception handling
   2. improve UI/UX
   3. add github auth token to increase the api query limit
   4. add unit tests and functional tests if it is a long term project
@@ -15,6 +15,5 @@ If given more time, we could
 ## running locally
   1. make a virtualenv with python>=3.5
   2. ` pip install -r requirements.txt `
-  3. ` cd GithubIssues/ ` the directory with manage.py
-  4. ` python manage.py runserver `
-  5. open your localhost http://127.0.0.1:8000
+  3. ` python manage.py runserver `
+  4. open your localhost http://127.0.0.1:8000
